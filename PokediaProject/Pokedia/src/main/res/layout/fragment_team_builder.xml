@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:baselineAligned="false"
+                android:divider="?android:attr/dividerHorizontal"
+                android:showDividers="middle"
+                tools:context=".ItemDetailFragment">
+
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/team_name"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:textIsSelectable="true"
+              android:layout_alignParentTop="true"
+            />
+
+
+
+    <FrameLayout
+            android:id="@+id/poke1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="25dp"
+            android:layout_below="@id/item_detail"/>
+    <FrameLayout
+            android:id="@+id/poke2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="25dp"
+            android:layout_below="@id/poke1"/>
+    <FrameLayout
+            android:id="@+id/poke3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="25dp"
+            android:layout_below="@id/poke2"/>
+
+</RelativeLayout>
+

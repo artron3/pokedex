@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="E:\TREE\Stage\SIU soon\Android\PokediaProject\Pokedia\src\main\assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="E:\TREE\Stage\SIU soon\Android\PokediaProject\Pokedia\src\release\assets" />
+    </dataSet>
+
+</merger>

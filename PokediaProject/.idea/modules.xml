@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pokedia/Pokedia.iml" filepath="$PROJECT_DIR$/Pokedia/Pokedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PokediaProject.iml" filepath="$PROJECT_DIR$/PokediaProject.iml" />
+    </modules>
+  </component>
+</project>
+
